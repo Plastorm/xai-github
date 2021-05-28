@@ -1,0 +1,25 @@
+html, body {
+    margin: 0px;
+    background: #32333b;
+    min-height: 100%;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+com {
+    font-style: italic;
+    color: #96e6ff;
+}
+
+.objectif {
+    font-size: 24px;
+}
+
+.recommandation {
+    font-size: 16px;
+    color: #75DCFF;
+}
+
+.basic {
+    font-size: 12px;
+}

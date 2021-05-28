@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "AMD",
+        "moduleResolution": "node",
+        "rootDir": "./src",
+        "target": "es6",
+        "outDir": "js/lib"
+    }
+}

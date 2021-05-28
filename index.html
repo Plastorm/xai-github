@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script data-main="./js/main.js" type="text/javascript" src="./modules/require.js"></script>
+
+    <title>Tree Indented visualization</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="text-light mt-4 p-0">
+          <div class="objectif">Manipuler des variables</div>
+          
+          <div class="recommandation">
+            <div>
+              - Question à réponse courte - Affecter le résultat d'une commande à une variable
+            </div>
+            <div>
+              - Question à réponse courte - Récupérer des données saisies par l'utilisateur
+            </div>
+            <div>
+              - Questionnaire à choix multiple - Interpréter de manière numérique une variable
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-light mt-4 p-0">
+          <h3>Explication</h3>
+        </div>
+      </div>
+
+      <div id="global-container" class="row" style="height:650px;">
+        <div id="explanation-container" class="col h-100 p-2 border rounded text-light bg-dark mr-4">
+        </div>
+      </div>
+
+    </div>
+
+    <svg style="height: 0px;">
+      <defs>
+        <marker
+          id="whiteArrowHead"
+          markerWidth="2.5"
+          markerHeight="2.5"
+          viewBox="0 0 20 20"
+          refX="10"
+          refY="10"
+          orient="auto-start-reverse">
+          <path d="M0,0L0,20L20,10" style="fill: white"></path>
+        </marker>
+        <marker
+          id="greenArrowHead"
+          markerWidth="2.5"
+          markerHeight="2.5"
+          viewBox="0 0 20 20"
+          refX="10"
+          refY="10"
+          orient="auto-start-reverse">
+          <path d="M0,0L0,20L20,10" style="fill: rgb(90, 200, 90)"></path>
+          <marker
+            id="blueArrowHead"
+            markerWidth="2.5"
+            markerHeight="2.5"
+            viewBox="0 0 20 20"
+            refX="10"
+            refY="10"
+            orient="auto-start-reverse">
+            <path d="M0,0L0,20L20,10" style="fill: rgb(80, 175, 220)"></path>
+        </marker>
+        <marker
+          id="orangeArrowHead"
+          markerWidth="2.5"
+          markerHeight="2.5"
+          viewBox="0 0 20 20"
+          refX="10"
+          refY="10"
+          orient="auto-start-reverse">
+          <path d="M0,0L0,20L20,10" style="fill: rgb(255, 135, 55)"></path>
+      </marker>
+      </defs>
+    </svg>
+
+    <div id="tooltip">
+    </div>
+
+  </body>
+
+</html>

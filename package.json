@@ -1,0 +1,24 @@
+{
+  "name": "xai-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "d3": "^6.7.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^6.3.0",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://forge.univ-lyon1.fr/p1506207/xai-visualization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
